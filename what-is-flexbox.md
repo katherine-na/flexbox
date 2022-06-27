@@ -22,7 +22,7 @@ Define un contenedor flexible; en línea o bloque
 }
 ```
 
-<img src="../flexbox/images/container.png" width="300" heigh="300">
+<img src="container.png" width="300" heigh="300">
 
 ### flex-direction
 
@@ -34,7 +34,7 @@ Define la dirección en que se colocan los artículos flexibles en el contenedor
 }
 ```
 
-<img src="../flexbox/images/display.png" width="300" heigh="300">
+<img src="display.png" width="300" heigh="300">
 
 ### flex-wrap
 
@@ -46,7 +46,7 @@ Los elementos se ajusten según sea necesario con esta propiedad.
 }
 ```
 
-<img src="../flexbox/images/wrap.png" width="300" heigh="300">
+<img src="wrap.png" width="300" heigh="300">
 
 ### justify-content
 
@@ -59,7 +59,7 @@ Define la alineación a lo largo del eje principal (main axis | cross axis)
 }
 ```
 
-<img src="../flexbox/images/justify.png" width="300" heigh="300">
+<img src="justify.png" width="300" heigh="300">
 
 ### align-items
 
@@ -72,8 +72,8 @@ Define cómo se distribuyen los elementos flexibles
 }
 ```
 
-<img src="../flexbox/images/align.png" width="300" heigh="300">
+<img src="align.png" width="300" heigh="300">
 
 ## Propiedades para el hijo (flex items)
 
-<img src="../flexbox/images/items.png" width="300" heigh="300">
+<img src="items.png" width="300" heigh="300">
