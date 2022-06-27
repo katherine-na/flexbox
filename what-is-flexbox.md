@@ -12,8 +12,68 @@ Se creó para mejorar la forma en la que se hace el diseño responsivo, evitando
 
 ## Propiedades para el padre (flex container)
 
-<img src="container.png" width="300" heigh="300">
+### display
+
+Define un contenedor flexible; en línea o bloque
+
+```css
+.container {
+  display: flex; /* or inline-flex */
+}
+```
+
+<img src="../flexbox/images/container.png" width="300" heigh="300">
+
+### flex-direction
+
+Define la dirección en que se colocan los artículos flexibles en el contenedor flexible.
+
+```css
+.container {
+  flex-direction: row; /* or row-reverse | column | column-reverse */
+}
+```
+
+<img src="../flexbox/images/display.png" width="300" heigh="300">
+
+### flex-wrap
+
+Los elementos se ajusten según sea necesario con esta propiedad.
+
+```css
+.container {
+  flex-wrap: wrap; /* or wrap-reverse | nowrap */
+}
+```
+
+<img src="../flexbox/images/wrap.png" width="300" heigh="300">
+
+### justify-content
+
+Define la alineación a lo largo del eje principal (main axis | cross axis)
+
+```css
+.container {
+  justify-content: flex-start;
+  /* or flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe */
+}
+```
+
+<img src="../flexbox/images/justify.png" width="300" heigh="300">
+
+### align-items
+
+Define cómo se distribuyen los elementos flexibles
+
+```css
+.container {
+  align-items: stretch;
+  /* flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe */
+}
+```
+
+<img src="../flexbox/images/align.png" width="300" heigh="300">
 
 ## Propiedades para el hijo (flex items)
 
-<img src="items.png" width="300" heigh="300">
+<img src="../flexbox/images/items.png" width="300" heigh="300">
