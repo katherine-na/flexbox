@@ -85,7 +85,7 @@ Alinea las líneas de un contenedor flexible dentro cuando hay espacio adicional
 }
 ```
 
-<img src="../flexbox/align-container.png" width="300" heigh="300">
+<img src="align-container.png" width="300" heigh="300">
 
 ### gap, row-gap, column-gap
 
@@ -102,4 +102,63 @@ Controla el espacio entre elementos flexibles
 }
 ```
 
-<img src="../flexbox/gap.png" width="300" heigh="300">
+<img src="gap.png" width="300" heigh="300">
+
+## Propiedades para el hijo (flex items)
+
+### order
+
+La propiedad order controla el orden en que aparecen en el contenedor flexible.
+
+```css
+.item {
+  order: 5; /* default is 0 */
+}
+```
+
+<img src="order.png" width="300" heigh="300">
+
+### flex-grow
+
+Define la capacidad de crecimiento de un elemento flexible si es necesario.
+
+```css
+.item {
+  flex-grow: 4; /* default 0 */
+}
+```
+
+<img src="grow.png" width="300" heigh="300">
+
+### flex-shrink
+
+Define la capacidad de que un elemento flexible se encoja si es necesario.
+
+```css
+.item {
+  flex-shrink: 3; /* default 1 */
+}
+```
+
+### flex-basis
+
+Es la abreviatura de flex-grow, flex-shrink y flex-basis combinados.
+
+```css
+.item {
+  flex: none | [ < "flex-grow" > < "flex-shrink" >? || < "flex-basis" > ];
+}
+```
+
+### align-self
+
+Permite anular la alineación predeterminada para elementos flexibles individuales.
+
+```css
+.item {
+  align-self: auto;
+  /* flex-start | flex-end | center | baseline | stretch */
+}
+```
+
+<img src="self.png" width="300" heigh="300">
