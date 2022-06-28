@@ -26,7 +26,7 @@ Se llenan con ítems y se agregan al contenedor, comienza desde el lado cross-st
 **cross-size**  
 Es el ancho o el alto del ítem, dependiendo de lo que se encuentre en la tranversal
 
-El Contenedor-Flex **(flex container)** es nuestro contenedor padre y es él quién va a contener a todos los elementos hijos a los que queremos posicionar.
+El Contenedor-Flex **(flex container)** es nuestro contenedor padre y es él quién va a contener a todos los elementos hijos a los que queremos posicionar.  
 El Elemento-Flex **(flex item)** es nuestro elemento hijo el cual utilizará todo el espacio disponible para ubicarse de acuerdo a las propiedades
 
 ```html
@@ -137,7 +137,7 @@ Controla el espacio entre flex items.
 }
 ```
 
-<img src="gap.png" width="300" heigh="300">
+<img src="https://css-tricks.com/wp-content/uploads/2021/09/gap-1.svg" width="300" heigh="300">
 
 ## Propiedades para el hijo (flex items)
 
