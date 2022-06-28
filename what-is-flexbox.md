@@ -74,6 +74,32 @@ Define cómo se distribuyen los elementos flexibles
 
 <img src="align.png" width="300" heigh="300">
 
-## Propiedades para el hijo (flex items)
+### align-content
 
-<img src="items.png" width="300" heigh="300">
+Alinea las líneas de un contenedor flexible dentro cuando hay espacio adicional en el eje transversal.
+
+```css
+.container {
+  align-content: flex-start;
+  /* flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe; */
+}
+```
+
+<img src="../flexbox/align-container.png" width="300" heigh="300">
+
+### gap, row-gap, column-gap
+
+Controla el espacio entre elementos flexibles
+
+```css
+.container {
+  display: flex;
+  ...
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}
+```
+
+<img src="../flexbox/gap.png" width="300" heigh="300">
