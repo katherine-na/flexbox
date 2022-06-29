@@ -30,10 +30,29 @@ a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
+img {
+  width: 100%;
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px;
+}
+
+input {
+  padding: 10px;
+  border: 0;
+}
+
+section,
+footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  padding: 20px;
+  font-weight: 100;
+  color: white;
 }
 
 /*Flex container*/
@@ -53,7 +72,7 @@ a:hover {
   flex: 1;
 }
 
-@media all and(max-width:1000px) {
+@media all and (max-width: 1000px) {
   .flex-nav ul {
     flex-wrap: wrap;
   }
@@ -62,13 +81,22 @@ a:hover {
     flex: 1 1 50%;
   }
 
+  .toggle-nav {
+    display: none;
+  }
+
   .flex-nav .social {
     flex: 1 1 25%;
   }
 }
 
-@media all and(max-width:500px) {
+@media all and (max-width: 500px) {
   .flex-nav li {
     flex-basis: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
   }
 }
