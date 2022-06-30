@@ -1,3 +1,11 @@
+<style>
+  .conteiner {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  </style>
+
 <h1 align="center"> Flexbox</h1>
 
 <p align="center">
@@ -45,6 +53,9 @@ El Elemento-Flex **(flex item)** es nuestro elemento hijo el cual utilizará tod
 }
 ```
 
+<div class="conteiner">
+
+<div class="first">
 ## Propiedades para el padre (flex container)
 
 ### display
@@ -138,7 +149,9 @@ Controla el espacio entre flex items.
 ```
 
 <img src="https://css-tricks.com/wp-content/uploads/2021/09/gap-1.svg" width="300" heigh="300">
+</div>
 
+<div class="second">
 ## Propiedades para el hijo (flex items)
 
 ### order
@@ -197,3 +210,6 @@ Permite anular la alineación predeterminada para flex items individuales.
 ```
 
 <img src="https://camo.githubusercontent.com/634a0654d355ea5af43d1bd868604176e01f726de196c4868dc0e0b80f3eee1f/68747470733a2f2f6373732d747269636b732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f31302f616c69676e2d73656c662e737667" width="300" heigh="300">
+</div>
+
+</div>
