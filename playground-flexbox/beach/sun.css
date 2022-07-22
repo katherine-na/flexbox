@@ -2,40 +2,33 @@ body {
   font-family: sans-serif;
 }
 
-.conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .cover {
   display: flex;
   justify-content: center;
 }
 
-header img {
+nav img {
   width: 80px;
   height: 80px;
   border-radius: 80px;
+  margin: 0px 30px;
 }
 
-.cover-img {
+nav p {
+  margin: 0;
+  text-align: center;
+}
+
+.intro-banner {
   width: 100%;
 }
 
-.wrapper {
+.collection {
   display: flex;
+  justify-content: space-evenly;
 }
 
-section {
-  display: flex;
-  justify-content: space-around;
-}
-
-.section-img {
-  width: 60%;
-}
-
-.aside-img {
-  width: 60%;
+.collection img {
+  width: 650px;
+  height: 600px;
 }
